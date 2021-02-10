@@ -6,6 +6,9 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
+// - AbstractController permet de ne pas utiliser de Response
+// - Route() est utiliser à la place de Route.yaml
+
 class PropertyController extends AbstractController {
 
     /**
